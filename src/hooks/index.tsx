@@ -7,7 +7,8 @@ const AppProvider: React.FC = ({ children }) => (
     <ThemeProvider>
         <UserProvider>
             <GameProvider>
-                { children }
+                { children } 
+                
             </GameProvider>
         </UserProvider>
     </ThemeProvider>
